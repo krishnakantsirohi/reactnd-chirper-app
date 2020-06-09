@@ -10,7 +10,7 @@ import {Link, withRouter} from 'react-router-dom';
 class Tweet extends Component{
     toParent = (e, id) => {
         e.preventDefault()
-        this.props.history.push(`/tweets/${id}`)
+        this.props.history.push(`/tweet/${id}`)
     }
     handleLike = (e) => {
         e.preventDefault()
